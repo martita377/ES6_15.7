@@ -1,0 +1,27 @@
+{
+  "name": "ES6_15.6",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel script.js --watch --out-file script-compiled.js",
+    "start": "http-server"
+  },
+  "keywords": [
+    "react",
+    "babel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "http-server": "^0.10.0"
+  },
+  "description": "",
+  "dependencies": {
+    "babel-standalone": "^6.26.0"
+  }
+}

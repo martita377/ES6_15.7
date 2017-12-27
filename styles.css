@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+
+body {
+    background-color: #687c78;
+    text-align: center;
+    font-family: 'Bungee', cursive;
+    color: #fff;
+}
+.controls {
+    font-size: 35px;
+    margin: 15px;
+    padding: 20px;
+}
+.button {
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    color: #fff;
+}
+.button:hover {
+    color: #ede440;
+}
+.stopwatch {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.results {
+    width: 180px;
+    margin: 15px auto;
+    padding: 0;
+}
+
+.results li {
+    font-size: 25px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 5px;
+}
